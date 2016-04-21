@@ -7,12 +7,10 @@ import javax.jws.WebParam;
 import javax.jws.WebResult;
 import javax.jws.WebService;
 
-import de.iwi.hska.avg.uebung.g14.ordersystem.domain.Store;
+import de.hska.iwi.avg.uebung.g14.ordersystem.domain.Store;
 
 @WebService
 public class StoreService {
-	
-	
 	
 	@WebMethod(operationName="storeOrder")
 	@WebResult(name="return")
@@ -36,7 +34,7 @@ public class StoreService {
 	@WebResult(name="return")
 	public boolean existsProduct(@WebParam(name="productId") String productID)
 	{
-		if(productID==null && productID.isEmpty())
+		if(productID==null || productID.isEmpty())
 		{
 			return false;
 		}

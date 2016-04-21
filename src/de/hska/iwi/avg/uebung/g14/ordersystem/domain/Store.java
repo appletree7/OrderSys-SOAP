@@ -1,4 +1,4 @@
-package de.iwi.hska.avg.uebung.g14.ordersystem.domain;
+package de.hska.iwi.avg.uebung.g14.ordersystem.domain;
 
 import java.util.UUID;
 
