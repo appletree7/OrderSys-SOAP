@@ -3,7 +3,7 @@
 <!-- Customize: g00 => g_your_group_number -->
 <endpoints xmlns='http://java.sun.com/xml/ns/jax-ws/ri/runtime' version='2.0'>
     <endpoint
-        name='G00Store'
-        implementation='de.hska.iwi.avg.uebung.g00.ordersystem.service.StoreService'
+        name='G14Store'
+        implementation='de.hska.iwi.avg.uebung.g14.ordersystem.service.StoreService'
         url-pattern='/StoreService'/>
 </endpoints>

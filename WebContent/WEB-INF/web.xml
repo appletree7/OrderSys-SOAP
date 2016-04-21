@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- Customize: G00 => G_your_group_number -->
 <web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd" id="WebApp_ID" version="3.0">
-  <display-name>G00_OrderStoreService</display-name>
-  <description>G00_Store</description>
+  <display-name>G14_OrderStoreService</display-name>
+  <description>G14_Store</description>
   <welcome-file-list>
     <welcome-file>index.html</welcome-file>
     <welcome-file>index.htm</welcome-file>
@@ -15,14 +15,14 @@
     <listener-class>com.sun.xml.ws.transport.http.servlet.WSServletContextListener</listener-class>
   </listener>
   <servlet>
-    <description>JAX-WS endpoint - Store G00</description>
-    <display-name>G00_Store</display-name>
-    <servlet-name>G00_Store</servlet-name>
+    <description>JAX-WS endpoint - Store G14</description>
+    <display-name>G14_Store</display-name>
+    <servlet-name>G14_Store</servlet-name>
     <servlet-class>com.sun.xml.ws.transport.http.servlet.WSServlet</servlet-class>
     <load-on-startup>1</load-on-startup>
   </servlet>
   <servlet-mapping>
-    <servlet-name>G00_Store</servlet-name>
+    <servlet-name>G14_Store</servlet-name>
     <url-pattern>/StoreService</url-pattern>
   </servlet-mapping>
   <session-config>
